@@ -22,7 +22,7 @@ namespace NCL {
 
 		class PhysicsObject	{
 		public:
-			PhysicsObject(Transform* parentTransform, const CollisionVolume* parentVolume, PhysicsType type = PhysicsType::Dynamic, float Elasticity = 0.8f);
+			PhysicsObject(Transform* parentTransform, const CollisionVolume* parentVolume, PhysicsType type = PhysicsType::Dynamic, float Elasticity = 0.9f);
 			~PhysicsObject();
 
 			Vector3 GetLinearVelocity() const {
